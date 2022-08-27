@@ -1,9 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './NavBar';
+import ItemListContainer from './ItemListContainer';
 
 function App() {
   return (
-    <h1>hola gente!!</h1>
+    <div className="container">
+      <NavBar/>
+   <ItemListContainer greeting={"saludos a todos!!"}/>
+    </div>
   );
 }
 
